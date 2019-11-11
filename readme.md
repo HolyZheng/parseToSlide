@@ -32,7 +32,7 @@ npm install parse-to-slider
 import parseToSlider from 'parse-to-slider';
 /**
  * @param {要转为轮播图的dom id} id 
- * @param {轮播时间间隔} interval 
+ * @param {轮播时间间隔，单位秒} interval 
  * @param {是否需要左右箭头导航} ifArrow 
  * @param {下方导航点的位置 left/center/right} position 
  */
@@ -65,7 +65,7 @@ parseToSlider('carouselMap', 3, false, 'center');
 
 ### 注意
 1. 需要给外层包裹元素绝对定位。
-2. 轮播的内容由你定义，轮播的其实是包裹元素内的首层跨级元素
+2. 轮播的内容由你定义，轮播的其实是包裹元素内的首层块级元素
 
 ### 适用场景
 简单的小页面，需要展示轮播结构的时候可以利用该插件快速开发。
