@@ -1,0 +1,26 @@
+body {
+    width: 740px;
+    height: 360px;
+}
+#carouselMap {
+    width: 400px;
+    height: 200px;
+    position: absolute;
+}
+.one, .two, .three, .four {
+    width: 400px;
+    height: 200px;
+}
+.one {
+    background-color: brown;
+}
+.two {
+    background-color: bisque;
+}
+.three {
+    background-color: coral;
+}
+.four {
+    background-color: aquamarine;
+    color: #a1a0a0
+}
