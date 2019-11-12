@@ -49,18 +49,6 @@ parseToSlider('carouselMap', 3, false, 'center');
     width: 400px;
     height: 200px; 
 }
-.one {
-    background-color: brown;
-}
-.two {
-    background-color: bisque;
-}
-.three {
-    background-color: coral;
-}
-.four {
-    background-color: aquamarine;
-}
 ```
 
 ### 注意
